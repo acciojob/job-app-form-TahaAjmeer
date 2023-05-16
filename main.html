@@ -7,10 +7,52 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>Job App Form</h1>
+	<form action="">
+		<div>
+			<label for="name">Name*</label><br>
+			<input type="text" name="name" id="#name" placeholder="write your name" required>
+		</div><br>
+		<div>
+			<label for="email">Email*</label><br>
+			<input type="email" name="email" id="#email" placeholder="write your email address" required>
+		</div><br>
+		<div>
+			<label for="gender">Gender*</label><br>
+			Male:<input type="radio" value="Male" name="gender">
+			Female:<input type="radio" value="Female" name="gender"> 
+		</div><br>
+		<div>
+			<label for="laptop">Laptop Brands</label>
+			<select name="options" id="#laptop">
+				<option value="Apple" name="laptop">Apple</option>
+				<option value="Asus" name="laptop">Asus</option>
+				<option value="HP" name="laptop">HP</option>
+			</select>	
+		</div><br>
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" name="age" id="#id" placeholder="write down your age" required>
+		</div><br>
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" name="dob" id="#dob" placeholder="write down your date of birth" required>
+		</div><br>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" name="password" id="#password" placeholder="please write your password" required>
+		</div><br>
+		<div>
+			<label for="portfolio"> User Portfolio link</label>
+			<input type="url" name="portfolio" id="portfolio" placeholder="provide you portfolio link">
+		</div><br>
+		<div>
+			<button>submit button</button>
+		</div>
+		<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	</form>
 </body>
 
 </html>
