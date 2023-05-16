@@ -8,19 +8,19 @@
 
 <body>
 	<h1>Job App Form</h1>
-	<form action="">
+	<form action="#" method="Post">
 		<div>
 			<label for="name">Name*</label><br>
-			<input type="text" name="name" id="#name" placeholder="write your name" required>
+			<input type="text" name="name" id="name" placeholder="write your name" required>
 		</div><br>
 		<div>
 			<label for="email">Email*</label><br>
-			<input type="email" name="email" id="#email" placeholder="write your email address" required>
+			<input type="email" name="email" id="email" placeholder="write your email address" required>
 		</div><br>
 		<div>
 			<label for="gender">Gender*</label><br>
-			Male:<input type="radio" value="Male" name="gender">
-			Female:<input type="radio" value="Female" name="gender"> 
+			Male:<input type="radio" value="Male" name="gender" id="gender_m" required>
+			Female:<input type="radio" value="Female" name="gender" id="gender_f" required> 
 		</div><br>
 		<div>
 			<label for="laptop">Laptop Brands</label>
@@ -32,15 +32,15 @@
 		</div><br>
 		<div>
 			<label for="age">Age*</label>
-			<input type="number" name="age" id="#id" placeholder="write down your age" required>
+			<input type="number" name="age" id="id" placeholder="write down your age" required>
 		</div><br>
 		<div>
 			<label for="dob">DOB*</label>
-			<input type="date" name="dob" id="#dob" placeholder="write down your date of birth" required>
+			<input type="date" name="dob" id="dob" placeholder="write down your date of birth" required>
 		</div><br>
 		<div>
 			<label for="password">Password*</label>
-			<input type="password" name="password" id="#password" placeholder="please write your password" required>
+			<input type="password" name="password" id="password" placeholder="please write your password" required>
 		</div><br>
 		<div>
 			<label for="portfolio"> User Portfolio link</label>
